@@ -1,2 +1,2 @@
-# GustavoGuanabara
- Repositório com exercícios do curso de Python - Mundo 1
+# Gustavo Guanabara
+ Repositório com exercícios do curso de Python
