@@ -6,6 +6,15 @@ valorImovel = float(input('Qual o valor do imóvel? '))
 salario = float(input('Qual o valor do salário? '))
 anos = int(input('Em quantos anos o financiamento do imóvel? '))
 
-prestacao = casa / (anos * 12)
+prestacao = valorImovel / (anos * 12)
 minimo = salario * 30/100
+
+print('Para pagar uma casa de R${:.2f} em {} anos'.format(valorImovel, anos), end='')
+print('A prestação será de R$ {:.2f}')
+
+if prestacao <= minimo:
+    print('Empréstimo concedido.')
+else:
+    print('Empréstimo negado.')
+
 
